@@ -15,10 +15,17 @@
   },
   {
     "name": "Starlike Client",
-    "version": "Unknown",
+    "version": "0.4.2",
     "url": "clients/1.8/Starlike_Client.html",
     "icon": "assets/eaglercraftx.jpg",
-    "author": "zumbiepig"
+    "author": "zumbiepig, SpeedSlicer"
+  },
+  {
+    "name": "Starlike Client (WASM)",
+    "version": "0.4.2",
+    "url": "clients/1.8/Starlike_Client_WASM.html",
+    "icon": "assets/eaglercraftx.jpg",
+    "author": "zumbiepig, SpeedSlicer"
   },
   {
     "name": "Pi Client",
