@@ -2,11 +2,11 @@
 resource pack loader
 yes, this is reused code from loader.js
 (c) 2025: x8r and the eaglercraft extras team
+modified 2026 by killercats1
 licensed under gnu gpl v3
 
 https://www.gnu.org/licenses/gpl-3.0.en.html
-https://github.com/x8rr/
-https://github.com/eaglercraftextras/
+https://github.com/killercats1/Eaglercraft-Extras
 */
 
 // set up globals

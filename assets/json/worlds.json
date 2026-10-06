@@ -1,8 +1,8 @@
 [
   {
     "name": "Skyblock",
-    "icon": "/worlds/images/skyblock.png",
+    "icon": "worlds/images/skyblock.png",
     "author": "x8r",
-    "url": "/worlds/Skyblock.epk"
+    "url": "worlds/Skyblock.epk"
   }
 ]

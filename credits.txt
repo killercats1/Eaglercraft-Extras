@@ -3,22 +3,13 @@ Eaglercraft Extras Credits
 All clients, pack, skins, and server credits go to their respective authors
 ------------------------------------------------
 
->> x8r (xor)
-~ head developer
-~ author of loader.js (genius)
-~ wrote css, html, and js
-~ does most things on the website
-
->> SyntaxError52
-~ Co-Dev of EaglercraftExtras
-~ Bug fixes
-~ Skins Page and Skins
-~ Created help form
-~ QoL changes
+>> killercats1
+~ owner and maintainer
 
 ------------------------------------------------
-To contact please go to https://forms.gle/Aj2pX9dXKSRJMzRT8 for any user requests
-or contact _x8rr on discord.
+Based on Eaglercraft Extras by x8r and the Eaglercraft Extras team,
+licensed under the GNU AGPL v3 (see LICENSE).
 ------------------------------------------------
-Eaglercraft Extras: v2.1.0 - 9/21/2025
-BuildID: Kpz1VR
+For requests, open an issue at
+https://github.com/killercats1/Eaglercraft-Extras/issues
+------------------------------------------------

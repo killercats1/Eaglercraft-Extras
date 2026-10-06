@@ -1,11 +1,11 @@
 @font-face {
   font-family: mc;
-  src: url('/assets/Minecraft.woff2');
+  src: url('assets/Minecraft.woff2');
 }
 
 @font-face {
   font-family: mc bold;
-  src: url('/assets/mcbold.otf');
+  src: url('assets/mcbold.otf');
 }
 
 h1 {
@@ -18,7 +18,7 @@ a {
 
 body,
 html {
-  background: url("/assets/dirt.webp");
+  background: url("assets/dirt.webp");
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -43,7 +43,7 @@ h2, h1 {
 }
 
 .button {
-  background: url('/assets/btn-minecraft.png');
+  background: url('assets/btn-minecraft.png');
   background-size: cover;
   background-repeat: no-repeat;
   border: none;
@@ -60,7 +60,7 @@ h2, h1 {
 }
 
 .button:hover {
-  background: url('/assets/btn-minecraft-hover.png');
+  background: url('assets/btn-minecraft-hover.png');
   color: yellow;
   background-size: cover;
   background-repeat: no-repeat;
