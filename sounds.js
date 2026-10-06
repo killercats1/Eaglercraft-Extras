@@ -10,8 +10,8 @@ https://github.com/killercats1/Eaglercraft-Extras
 
 const buttons = document.querySelectorAll("a");
 const clients = document.querySelectorAll("li")
-var hoverSound = new Audio("/assets/hover.ogg");
-var clickSound = new Audio("/assets/click.ogg");
+var hoverSound = new Audio("assets/hover.ogg");
+var clickSound = new Audio("assets/click.ogg");
 
 buttons.forEach((button) => {
   button.addEventListener("mouseenter", () => {
@@ -165,6 +165,6 @@ if (window.location.href.includes("worlds")) {
   });
 }
 
-const bgMusic = new Audio("/assets/menu2.ogg")
+const bgMusic = new Audio("assets/menu2.ogg")
 bgMusic.loop = true
 bgMusic.play()
