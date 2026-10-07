@@ -5,5 +5,12 @@
     "url": "clients/1.12/eaglercraft_1.12.2_wasm.html",
     "icon": "assets/eaglercraftx.jpg",
     "author": "PeytonPlayz595, lax1dude"
+  },
+  {
+    "name": "Eaglercraft 1.12 (older browsers)",
+    "version": "1.12.2 (Mar 2025)",
+    "url": "clients/1.12/eaglercraft_1.12.2_js.html",
+    "icon": "assets/eaglercraftx.jpg",
+    "author": "PeytonPlayz595, lax1dude"
   }
 ]
