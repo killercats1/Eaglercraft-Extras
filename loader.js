@@ -63,6 +63,14 @@ function loadClients(v) {
         newIcon.appendChild(newLink);
         newClient.appendChild(newLink);
         newLink.appendChild(newPlaybtn);
+
+        // download button so the client can be saved and played offline
+        const newDownload = document.createElement("a");
+        newDownload.className = "dl-btn";
+        newDownload.href = data.url;
+        newDownload.download = decodeURIComponent(data.url.split("/").pop());
+        newDownload.textContent = "Download";
+        newClient.appendChild(newDownload);
       });
     });
 }
