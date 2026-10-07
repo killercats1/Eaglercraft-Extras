@@ -12,7 +12,7 @@ The best addons website for VOXEL-SANDBOX. Constantly updated with the latest cl
 - The best part? It's 100% <u>free!</u>
 
 ## Maintainer
-Maintained by [killercats1](https://github.com/killercats1). Have a request or found a bug? [Open an issue](https://github.com/killercats1/Eaglercraft-Extras/issues).
+Maintained by [killercats1](https://github.com/killercats1). Have a request or found a bug? [Open an issue](https://github.com/killercats1/VOXEL-SANDBOX/issues).
 
 ## Credits & License
 This project is based on Eaglercraft Extras by x8r and the Eaglercraft Extras team, and is licensed under the GNU AGPL v3 — see [LICENSE](LICENSE). Quick Guide by Thundiverter.
