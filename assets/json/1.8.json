@@ -54,5 +54,29 @@
     "url": "clients/1.8/Eagler-Reborn.html",
     "icon": "assets/eaglercraftx.jpg",
     "author": "EaglerReborn"
+  },
+  {
+    "name": "Astra Client",
+    "version": "1.4.2 (u46)",
+    "url": "clients/1.8/astra/index.html",
+    "icon": "assets/eaglercraftx.jpg",
+    "author": "Astra Client team",
+    "download": false
+  },
+  {
+    "name": "Astra Client (WASM)",
+    "version": "1.4.2",
+    "url": "clients/1.8/astra-wasm/index.html",
+    "icon": "assets/eaglercraftx.jpg",
+    "author": "Astra Client team",
+    "download": false
+  },
+  {
+    "name": "Resent Client",
+    "version": "4.0 Patch 4",
+    "url": "clients/1.8/resent4/index.html",
+    "icon": "assets/eaglercraftx.jpg",
+    "author": "Resent Client team",
+    "download": false
   }
 ]

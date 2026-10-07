@@ -65,12 +65,15 @@ function loadClients(v) {
         newLink.appendChild(newPlaybtn);
 
         // download button so the client can be saved and played offline
-        const newDownload = document.createElement("a");
-        newDownload.className = "dl-btn";
-        newDownload.href = data.url;
-        newDownload.download = decodeURIComponent(data.url.split("/").pop());
-        newDownload.textContent = "Download";
-        newClient.appendChild(newDownload);
+        // (multi-file clients set "download": false and only get Play)
+        if (data.download !== false) {
+          const newDownload = document.createElement("a");
+          newDownload.className = "dl-btn";
+          newDownload.href = data.url;
+          newDownload.download = decodeURIComponent(data.url.split("/").pop());
+          newDownload.textContent = "Download";
+          newClient.appendChild(newDownload);
+        }
       });
     });
 }
