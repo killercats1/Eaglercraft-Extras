@@ -69,4 +69,4 @@ function loadClients(v) {
 
 // pick the client list from the page name, e.g. 1.12.html -> 1.12
 const page = window.location.pathname.split("/").pop().replace(".html", "");
-loadClients(/^1\.\d+$/.test(page) ? page : "1.3");
+loadClients(/^(1\.\d+|classic|beta)$/.test(page) ? page : "1.3");

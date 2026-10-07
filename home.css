@@ -388,23 +388,6 @@ button:disabled:hover {
   color: white;
 }
 
-#introVid {
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transition: 0.3s;
-  background: white;
-  transform: translateX(-50%);
-  border: none;
-  outline: none;
-}
-
-#opening {
-  text-shadow: 2px 2px 2px transparent;
-}
-
 .skins {
   font-family: mc;
 }
