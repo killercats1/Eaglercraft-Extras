@@ -67,10 +67,6 @@ function loadClients(v) {
     });
 }
 
-if (window.location.href.includes("1.8")) {
-    loadClients("1.8");
-} else if (window.location.href.includes("1.5")) {
-    loadClients("1.5");
-} else {
-    loadClients("1.3");
-}
+// pick the client list from the page name, e.g. 1.12.html -> 1.12
+const page = window.location.pathname.split("/").pop().replace(".html", "");
+loadClients(/^1\.\d+$/.test(page) ? page : "1.3");

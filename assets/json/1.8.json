@@ -47,5 +47,12 @@
     "url": "clients/1.8/DragonX_V4.html",
     "icon": "assets/eaglercraftx.jpg",
     "author": "3TERN4LF1R3"
+  },
+  {
+    "name": "Eagler Reborn",
+    "version": "Beta 1.1",
+    "url": "clients/1.8/Eagler-Reborn.html",
+    "icon": "assets/eaglercraftx.jpg",
+    "author": "EaglerReborn"
   }
 ]
