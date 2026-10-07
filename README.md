@@ -8,7 +8,7 @@ The best addons website for VOXEL-SANDBOX. Constantly updated with the latest cl
 - Look at a <b>giant</b> selection of clients to play on!
 - See our built-in Quick Guide made by Thundiverter!
 - Download skins for your character!
-- We have 1.3, 1.5, 1.8, 1.9, 1.11, and 1.12 clients!
+- We have Classic, Beta, 1.3, 1.5, 1.8, 1.9, 1.11, and 1.12 clients!
 - The best part? It's 100% <u>free!</u>
 
 ## Maintainer
