@@ -1,14 +1,14 @@
-# Welcome to Eaglercraft Extras!
-The best addons website for Eaglercraft. Constantly updated to bring you the latest versions of Eagler, and providing you with other clients, texture packs, and more!
+# Welcome to VOXEL-SANDBOX Extras!
+The best addons website for VOXEL-SANDBOX. Constantly updated with the latest clients, texture packs, and more!
 
 ## Features
 - Find pre-built worlds to download and play!
 - Search for servers to play with other people!
-- Download resource packs to customize your Eaglercraft!
+- Download resource packs to customize your game!
 - Look at a <b>giant</b> selection of clients to play on!
 - See our built-in Quick Guide made by Thundiverter!
-- Download skins for your Eaglercraft character!
-- We have 1.3, 1.5, and 1.8 clients for Eaglercraft!
+- Download skins for your character!
+- We have 1.3, 1.5, 1.8, 1.9, 1.11, and 1.12 clients!
 - The best part? It's 100% <u>free!</u>
 
 ## Maintainer
