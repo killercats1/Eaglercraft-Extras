@@ -5,7 +5,7 @@ modified 2026 by killercats1
 licensed under gnu gpl v3
 
 https://www.gnu.org/licenses/gpl-3.0.en.html
-https://github.com/killercats1/Eaglercraft-Extras
+https://github.com/killercats1/VOXEL-SANDBOX
 */
 
 const buttons = document.querySelectorAll("a");

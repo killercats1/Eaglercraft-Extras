@@ -11,5 +11,5 @@ Based on Eaglercraft Extras by x8r and the Eaglercraft Extras team,
 licensed under the GNU AGPL v3 (see LICENSE).
 ------------------------------------------------
 For requests, open an issue at
-https://github.com/killercats1/Eaglercraft-Extras/issues
+https://github.com/killercats1/VOXEL-SANDBOX/issues
 ------------------------------------------------
