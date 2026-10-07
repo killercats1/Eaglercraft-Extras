@@ -24,8 +24,10 @@ buttons.forEach((button) => {
 
 buttons.forEach(function (button) {
   button.addEventListener("click", (e) => {
-    e.preventDefault();
     clickSound.play();
+    // let download links download instead of navigating
+    if (button.hasAttribute("download")) return;
+    e.preventDefault();
     console.log(e.target.href);
     setTimeout(() => {
       window.location.href = button.href
@@ -33,7 +35,7 @@ buttons.forEach(function (button) {
   });
 });
 
-if (window.location.href.includes("1.")) {
+if (/(^|\/)(1\.\d+|classic|beta)\.html$/.test(window.location.pathname)) {
     document.getElementById("clients").addEventListener("mouseover", (e) => {
       const li = e.target.closest("li");
       if (li) {
@@ -44,34 +46,8 @@ if (window.location.href.includes("1.")) {
     });
     document.getElementById("clients").addEventListener("click", (e) => {
       const li = e.target.closest("li");
-      if (li) {
-        e.preventDefault();
-        clickSound.play();
-
-        const link = li.querySelector("a");
-        if (link) {
-          console.log(link.href);
-          setTimeout(() => {
-            window.location.href = link.href;
-          }, 150);
-        }
-      }
-    });
-
-}
-
-if (window.location.href.includes("1.")) {
-    document.getElementById("clients").addEventListener("mouseover", (e) => {
-      const li = e.target.closest("li");
-      if (li) {
-        const sound = hoverSound.cloneNode(true);
-        sound.play();
-        console.debug("li hover sound");
-      }
-    });
-    document.getElementById("clients").addEventListener("click", (e) => {
-      const li = e.target.closest("li");
-      if (li) {
+      // the download button handles its own click
+      if (li && !e.target.closest(".dl-btn")) {
         e.preventDefault();
         clickSound.play();
 

@@ -346,6 +346,31 @@ ul {
   background: none;
 }
 
+#client a.dl-btn {
+  top: 50%;
+  left: auto;
+  right: 12px;
+  width: auto;
+  height: auto;
+  z-index: 3;
+  pointer-events: auto;
+  transform: translateY(-50%);
+  padding: 10px 22px;
+  color: white;
+  font-family: mc;
+  font-size: 18px;
+  text-decoration: none;
+  background: url("assets/btn-minecraft.png");
+  background-size: 100% 100%;
+  text-shadow: 2px 2px 0 #3f3f3f;
+}
+
+#client a.dl-btn:hover {
+  background: url("assets/btn-minecraft-hover.png");
+  background-size: 100% 100%;
+  color: #ffffa0;
+}
+
 #client:hover {
   outline: #f0f0f0 solid 3px;
   background: rgba(0, 0, 0, 0.6);
