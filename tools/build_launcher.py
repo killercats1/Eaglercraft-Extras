@@ -222,11 +222,15 @@ function show(key) {
     play.textContent = "Play";
     play.href = absolute(client.url);
     play.target = "_blank";
-    const dl = document.createElement("button");
-    dl.className = "btn";
-    dl.textContent = "Download";
-    dl.addEventListener("click", () => download(client, dl));
-    actions.append(play, dl);
+    actions.append(play);
+    // multi-file clients set "download": false and can only be played online
+    if (client.download !== false) {
+      const dl = document.createElement("button");
+      dl.className = "btn";
+      dl.textContent = "Download";
+      dl.addEventListener("click", () => download(client, dl));
+      actions.append(dl);
+    }
 
     row.append(icon, info, actions);
     list.appendChild(row);
